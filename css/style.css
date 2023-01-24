@@ -13,19 +13,27 @@
   display: flex;
   flex-direction: column;
   max-width: 1300px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+#header-container {
+  background-color: black;
+  background-image: url("/img/jumbo.png");
+  background-size: cover;
 }
 
 .nav-container {
   height: 70px;
   display: flex;
-  justify-content: space-between;
-  background-color: green;
+  justify-content: space-around;
 }
 
 .logo {
-  height: 70px;
+  min-height: 70px;
   min-width: 110px;
-  background-color: #00FF29;
+  display: flex;
+  align-items: center;
 }
 
 .nav-container ul {
@@ -36,19 +44,29 @@
   justify-content: center;
   align-items: center;
   gap: 27px;
-  background-color: #00FF29;
 }
 
 .nav-container ul li {
-  width: 50px;
   height: 30px;
-  background-color: #DB00FF;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: white;
 }
 
 .login {
-  height: 70px;
+  min-height: 70px;
   min-width: 110px;
-  background-color: #00FF29;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-btn {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 12px;
 }
 
 #section-one {
@@ -58,19 +76,20 @@
   align-items: center;
   justify-content: center;
   gap: 18px;
-  background-color: rgba(0, 0, 255, 0.648);
 }
 
 #title {
-  width: 445px;
-  height: 68px;
-  background-color: rgba(0, 106, 255, 0.648);
+  min-width: 440px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
 }
 
 #paragraph {
-  width: 660px;
-  height: 76px;
-  background-color: rgba(0, 106, 255, 0.648);
+  max-width: 660px;
+  color: white;
+  font-size: 14px;
+  text-align: center;
 }
 
 .button-container {
@@ -79,13 +98,23 @@
   display: flex;
   justify-content: center;
   gap: 16px;
-  background-color: rgba(0, 106, 255, 0.648);
 }
 
-.button {
-  width: 180px;
-  height: 48px;
-  background-color: rgba(0, 191, 255, 0.851);
+.big-btn {
+  border: none;
+  border-radius: 25px;
+  padding: 15px 17px;
+  font-size: 14px;
+}
+
+.black-btn {
+  background-color: #23272A;
+  color: white;
+}
+
+.white-btn {
+  background-color: white;
+  color: black;
 }
 
 #section-two {
