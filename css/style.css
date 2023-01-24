@@ -28,7 +28,7 @@
 
 #header-container {
   background-color: black;
-  background-image: url("/img/jumbo.png");
+  background-image: url("../img/jumbo.png");
   background-size: cover;
 }
 
