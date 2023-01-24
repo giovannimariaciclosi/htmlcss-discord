@@ -15,6 +15,15 @@
   max-width: 1300px;
   color: black;
   font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+
+.main-container h1 {
+  font-size: 36px;
+}
+
+.main-container p {
+  font-size: 15px;
 }
 
 #header-container {
@@ -38,7 +47,7 @@
 
 .nav-container ul {
   height: 100%;
-  width: 440px;
+  min-width: 440px;
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -50,7 +59,7 @@
   height: 30px;
   display: flex;
   align-items: center;
-  font-size: 14px;
+  font-size: 15px;
   color: white;
 }
 
@@ -82,13 +91,11 @@
   min-width: 440px;
   text-align: center;
   color: white;
-  font-size: 24px;
 }
 
 #paragraph {
   max-width: 660px;
   color: white;
-  font-size: 14px;
   text-align: center;
 }
 
@@ -104,7 +111,7 @@
   border: none;
   border-radius: 25px;
   padding: 15px 17px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .black-btn {
@@ -122,36 +129,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 34px;
-  background-color: rgba(0, 136, 255, 0.648);
+  gap: 10px;
 }
 
 #section-two-text  {
-  width: 352px;
-  height: 372px;
+  max-width: 352px;
+  min-height: 372px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 24px;
-  background-color: rgba(0, 242, 255, 0.628);
-}
-
-#section-two-text h1 {
-  width: 352px;
-  height: 243px;
-  background-color: rgba(12, 196, 119, 0.628);
-}
-
-#section-two-text p {
-  width: 352px;
-  height: 105px;
-  background-color: rgba(12, 196, 119, 0.628);
-}
-
-#section-two-img {
-  width: 496px;
-  height: 344px;
-  background-color: rgba(0, 242, 255, 0.628);
+  justify-content: flex-start;
+  gap: 20px;
 }
 
 #section-three {
