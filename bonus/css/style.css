@@ -13,7 +13,6 @@
   display: flex;
   flex-direction: column;
   max-width: 1300px;
-  color: black;
   font-family: 'Poppins', sans-serif;
   background-color: white;
 }
@@ -27,7 +26,6 @@
 }
 
 #header-container {
-  background-color: black;
   background-image: url("../img/jumbo.png");
   background-size: cover;
 }
@@ -50,7 +48,7 @@
   min-width: 440px;
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   gap: 27px;
 }
@@ -69,6 +67,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.page-link {
+  text-decoration: none;
+  color: white;
+}
+
+.page-link:hover {
+  text-decoration: underline;
 }
 
 #section-one {
@@ -106,6 +113,7 @@
   border: none;
   border-radius: 20px;
   padding: 10px 12px;
+  transition: 0.3s;
 }
 
 .big-btn {
@@ -113,6 +121,7 @@
   border-radius: 25px;
   padding: 15px 17px;
   font-size: 16px;
+  transition: 0.3s;
 }
 
 .black-btn {
@@ -126,8 +135,31 @@
 }
 
 .blue-btn {
-  background-color: #7289DA;
+  background-color: #5865F2;
   color: white;
+}
+
+button::after {
+  background-color: #5865F2;
+  color: #5865F2;
+}
+
+.white-btn:hover {
+  cursor: pointer;
+  color: #5865F2;
+  box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+.black-btn:hover {
+  cursor: pointer;
+  background-color: #36393F;
+  box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+.blue-btn:hover {
+  cursor: pointer;
+  background-color: #7983F5;
+  box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.25);
 }
 /* /buttons */
 
@@ -198,7 +230,7 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 35px;
-    border-bottom: solid 2px #7289DA;
+    border-bottom: solid 2px #5865F2;
   }
 
 #footer-right {
@@ -224,7 +256,7 @@
 }
 
 #footer-left h2 {
-  color: #7289DA;
+  color: #5865F2;
 }
 
 #social {
@@ -264,7 +296,7 @@
 }
 
 .list-title {
-  color: #7289DA;
+  color: #5865F2;
   font-weight: 700;
 }
 
