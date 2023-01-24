@@ -71,13 +71,6 @@
   justify-content: center;
 }
 
-.small-btn {
-  background-color: white;
-  border: none;
-  border-radius: 20px;
-  padding: 10px 12px;
-}
-
 #section-one {
   height: 428px;
   display: flex;
@@ -107,6 +100,14 @@
   gap: 16px;
 }
 
+
+/* buttons */
+.small-btn {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 12px;
+}
+
 .big-btn {
   border: none;
   border-radius: 25px;
@@ -128,6 +129,8 @@
   background-color: #7289DA;
   color: white;
 }
+/* /buttons */
+
 
 /* section with text and image */
 .section {
@@ -163,7 +166,7 @@
 }
 
 #section-five-text {
-  max-width: 1011px;
+  max-width: 855px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -186,63 +189,82 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  background-color: rgba(0, 38, 255, 0.574);
+  background-color: #23272A;
+  color: white;
 }
 
-#footer-menu {
-  width: 1046px;
-  height: 366px;
+#footer-upbar {
+    min-width: 1046px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+    border-bottom: solid 2px #7289DA;
+  }
+
+#footer-right {
+  min-width: 789px;
   display: flex;
   justify-content: space-between;
-  gap: 67px;
-  background-color: rgba(0, 195, 255, 0.574);
+  padding-bottom: 35px;
 }
 
-#footer-endbar {
-  width: 1046px;
-  height: 68px;
+#footer-bottombar {
+  min-width: 1046px;
   display: flex;
   justify-content: space-between;
-  background-color: rgba(0, 195, 255, 0.574);
 }
 
-#community {
+#footer-left {
   width: 214px;
   height: 150px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+#footer-left h2 {
+  color: #7289DA;
+}
+
+#social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+#italian-flag { 
+  width: 24px;
+  height: 17px;
+}
+
+#footer-social-icon {
+  max-width: 145px;
+  display: flex;
   justify-content: space-between;
-  background-color: rgba(0, 255, 187, 0.574);
+  margin-top: 15px;
 }
 
-#community h1 {
-  width: 214px;
-  height: 75px;
-  background-color: rgba(68, 255, 0, 0.574);
+#footer-social-icon img {
+  width: 20px;
+  height: 20px;
 }
-
-#community #social {
-  width: 214px;
-  height: 75px;
-  background-color: rgba(68, 255, 0, 0.574);
-}
-
-.footer-link {
-  width: 110px;
-  height: 366px;
-  background-color: rgba(0, 255, 187, 0.574);
-}
-
 
 .link-list {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  font-size: 14px;
 }
 
 .link-list li {
   height: 15px;
-  background-color: rgba(68, 255, 0, 0.574);
 }
+
+.list-title {
+  color: #7289DA;
+  font-weight: 700;
+}
+
