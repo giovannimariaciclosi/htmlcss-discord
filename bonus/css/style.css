@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .debug * {
+  border: dotted 1px black;
+} */
+
+.main-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+
+.main-container h1 {
+  font-size: 36px;
+}
+
+.main-container p {
+  font-size: 15px;
+}
+
+#header-container {
+  background-color: black;
+  background-image: url("../img/jumbo.png");
+  background-size: cover;
+}
+
+.nav-container {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  min-height: 70px;
+  min-width: 110px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-container ul {
+  height: 100%;
+  min-width: 440px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+}
+
+.nav-container ul li {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+}
+
+.login {
+  min-height: 70px;
+  min-width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section-one {
+  height: 428px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+#title {
+  min-width: 440px;
+  text-align: center;
+  color: white;
+}
+
+#paragraph {
+  max-width: 660px;
+  color: white;
+  text-align: center;
+}
+
+.button-container {
+  width: 445px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+
+/* buttons */
+.small-btn {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 12px;
+}
+
+.big-btn {
+  border: none;
+  border-radius: 25px;
+  padding: 15px 17px;
+  font-size: 16px;
+}
+
+.black-btn {
+  background-color: #23272A;
+  color: white;
+}
+
+.white-btn {
+  background-color: white;
+  color: black;
+}
+
+.blue-btn {
+  background-color: #7289DA;
+  color: white;
+}
+/* /buttons */
+
+
+/* section with text and image */
+.section {
+  height: 669px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.section-text  {
+  max-width: 352px;
+  min-height: 372px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.grey-section {
+  background-color: #F6F6F6;
+}
+
+/* /section with text and image */
+
+#section-five {
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 21px; */
+}
+
+#section-five-text {
+  max-width: 855px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+#section-five-subtitle {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#section-five-subtitle h2 {
+  margin-top: -25px;
+}
+
+#footer {
+  height: 548px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #23272A;
+  color: white;
+}
+
+#footer-upbar {
+    min-width: 1046px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+    border-bottom: solid 2px #7289DA;
+  }
+
+#footer-right {
+  min-width: 789px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 35px;
+}
+
+#footer-bottombar {
+  min-width: 1046px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-left {
+  width: 214px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+#footer-left h2 {
+  color: #7289DA;
+}
+
+#social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+#italian-flag { 
+  width: 24px;
+  height: 17px;
+}
+
+#footer-social-icon {
+  max-width: 145px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+#footer-social-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.link-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 14px;
+}
+
+.link-list li {
+  height: 15px;
+}
+
+.list-title {
+  color: #7289DA;
+  font-weight: 700;
+}
+
